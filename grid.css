@@ -1,0 +1,51 @@
+/*
+about: v simple grid
+author: r-medina
+*/
+
+.row {
+  display: block;
+}
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+[class*='col-'] {
+  margin: 0 2.5%;
+  float: left;
+}
+.col-5 {
+  width: 95%;
+}
+.col-4 {
+  width: 75%;
+}
+.col-3 {
+  width: 55%;
+}
+.col-2 {
+  width: 35%;
+}
+.col-1 {
+  width: 15%;
+}
+
+.offset-1 {
+  margin-left: 22.5%;
+}
+.offset-2 {
+  margin-left: 42.5%;
+}
+
+@media only screen and (max-width: 767px) {
+  [class*='col-'] {
+    margin: 0 0 2em 0;
+    width: 100%;
+  }
+
+  [class*='offset-'] {
+    margin-left: 0;
+  }
+}
