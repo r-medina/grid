@@ -8,5 +8,8 @@ An insanely simple CSS grid.
     <link rel="stylesheet" href="grid.css">
 ```
 
-![small](http://i.imgur.com/PsWlGao.png)
-![big](http://i.imgur.com/SaFLyVO.png)
+## small
+<img alt="small" src="http://i.imgur.com/PsWlGao.png" width="50%">
+
+## big
+<img src="http://i.imgur.com/SaFLyVO.png" width="83%">
